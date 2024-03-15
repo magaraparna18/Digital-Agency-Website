@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <style>
+        .card {
+            height: 100%;
+            box-shadow: 0 8px 8px rgba(12, 12, 12, 0.5);
+            transition: transform 0.3s;
+           
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .header-wrapper .nav-item .nav-link {
+    font-weight: bold;
+    font-size: 20px;
+    color: black(242, 241, 241);
+}
+.header-wrapper .nav-item .nav-link:hover {
+            border-bottom: 2px solid black; 
+        }
+    </style>
+</head>
+<body id="a4">
+
+    <!-- Navbar -->
+    <header class="header-wrapper">
+        <nav class="navbar navbar-expand-lg fixed-top " style="background-color: aliceblue;">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- Navigation Links -->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.html">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+
+    <div class="container mt-5">
+        <h1 class="text-center"><u>Meet Our Team</u></h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
+            <div class="col">
+                <div class="card">
+                    <img src="/Images/poonam.jpeg" class="card-img-top img-fluid" alt="Poonam Gore" style="height: 300px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Poonam Gore</h5>
+                        <p class="card-text">Chief Executive Officer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="/Images/komal.jpeg" class="card-img-top img-fluid" alt="Komal Kokare" style="height: 300px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Komal Kokare</h5>
+                        <p class="card-text">Product Manager</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="/Images/kavii.jpeg" class="card-img-top img-fluid" alt="Kavita Randive" style="height: 300px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Kavita Randive</h5>
+                        <p class="card-text">CTO</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="/Images/Diksha.jpeg" class="card-img-top img-fluid" alt="Diksha Daphal" style="height: 300px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Diksha Daphal</h5>
+                        <p class="card-text">Accountant</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
